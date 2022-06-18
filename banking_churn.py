@@ -7,8 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 url = "https://raw.githubusercontent.com/Livuza/ADS-April-2021/main/Assignments/Assignment%202/banking_churn.csv"
 banking_churn = pd.read_csv(url)
-banking_churn.head()
-banking_churn.describe()
+st.write(banking_churn.head())
 st.title("Bank Churn")
 
 
